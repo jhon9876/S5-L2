@@ -172,8 +172,16 @@ h1 + p {
 }
 
 @media screen and (min-width: 700px) {
+  #container-h1 {
+  }
+  #container-h1 img {
+    width: 50%;
+    position: relative;
+    left: 40%;
+  }
   h1 {
     font-size: 3.6rem;
+    margin-bottom: 0;
   }
 }
 
